@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    height: 100vh;
+    background: url(https://i.pinimg.com/1200x/c9/06/7d/c9067d87c21cbcc144fa306d85080581.jpg) 
+                no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.portada h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 0 0 10px black;
+}
+
+.portada p {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    text-shadow: 0 0 8px black;
+}
+
+.btn {
+    background-color: gray;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: wheat;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e03e3e;
+    transform: scale(1.05);
+}
+
+html {
+    scroll-behavior: smooth;
+}
